@@ -62,7 +62,7 @@ cat /learning.txt
 ```
 
 
-Some commands:
+Some commands:\
 ps - list containers
 ```
 docker ps
@@ -99,8 +99,8 @@ Ex:
 docker pull python:3.10
 ```
 
-docker run => Runs a container from an image. If the image is not downloaded, Docker automatically pulls it first.
-Think: “Download (if needed) + start the app.”
+docker run => Runs a container from an image. If the image is not downloaded, Docker automatically pulls it first.\
+Think: “Download (if needed) + start the app.”\
 Ex:
 ```
 docker run python:3.10
